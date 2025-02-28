@@ -1,0 +1,466 @@
+TESTCASE 1 :
+
+Set U : 1 2 
+Set V : 3 4 
+No. of edges from U to V : 2
+Edges are : 
+(2,4)
+(2,3)
+
+Set U : 1 3 
+Set V : 2 4 
+No. of edges from U to V : 2
+Edges are : 
+(1,2)
+(2,3)
+
+Set U : 1 4 
+Set V : 2 3 
+No. of edges from U to V : 2
+Edges are : 
+(1,2)
+(2,4)
+----------------------------------------------------------------
+TESTCASE 2 :
+Partition not possible.
+----------------------------------------------------------------
+TESTCASE 3 :
+
+Set U : 1 2 3 4 
+Set V : 5 6 7 8 
+No. of edges from U to V : 3
+Edges are : 
+(5,3)
+(5,4)
+(4,8)
+
+Set U : 1 2 3 5 
+Set V : 4 6 7 8 
+No. of edges from U to V : 2
+Edges are : 
+(5,4)
+(5,6)
+
+Set U : 1 2 3 6 
+Set V : 4 5 7 8 
+No. of edges from U to V : 3
+Edges are : 
+(5,3)
+(5,6)
+(6,7)
+
+Set U : 1 2 3 7 
+Set V : 4 5 6 8 
+No. of edges from U to V : 2
+Edges are : 
+(5,3)
+(6,7)
+
+Set U : 1 2 3 8 
+Set V : 4 5 6 7 
+No. of edges from U to V : 2
+Edges are : 
+(5,3)
+(4,8)
+
+Set U : 1 2 4 5 
+Set V : 3 6 7 8 
+No. of edges from U to V : 4
+Edges are : 
+(2,3)
+(5,3)
+(5,6)
+(4,8)
+
+Set U : 1 2 4 7 
+Set V : 3 5 6 8 
+No. of edges from U to V : 4
+Edges are : 
+(2,3)
+(5,4)
+(6,7)
+(4,8)
+
+Set U : 1 2 4 8 
+Set V : 3 5 6 7 
+No. of edges from U to V : 2
+Edges are : 
+(2,3)
+(5,4)
+
+Set U : 1 2 5 6 
+Set V : 3 4 7 8 
+No. of edges from U to V : 4
+Edges are : 
+(2,3)
+(5,3)
+(5,4)
+(6,7)
+
+Set U : 1 2 6 7 
+Set V : 3 4 5 8 
+No. of edges from U to V : 2
+Edges are : 
+(2,3)
+(5,6)
+
+Set U : 1 2 6 8 
+Set V : 3 4 5 7 
+No. of edges from U to V : 4
+Edges are : 
+(2,3)
+(5,6)
+(6,7)
+(4,8)
+
+Set U : 1 2 7 8 
+Set V : 3 4 5 6 
+No. of edges from U to V : 3
+Edges are : 
+(2,3)
+(6,7)
+(4,8)
+
+Set U : 1 3 4 5 
+Set V : 2 6 7 8 
+No. of edges from U to V : 4
+Edges are : 
+(1,2)
+(2,3)
+(5,6)
+(4,8)
+
+Set U : 1 3 4 8 
+Set V : 2 5 6 7 
+No. of edges from U to V : 4
+Edges are : 
+(1,2)
+(2,3)
+(5,3)
+(5,4)
+
+Set U : 1 3 5 6 
+Set V : 2 4 7 8 
+No. of edges from U to V : 4
+Edges are : 
+(1,2)
+(2,3)
+(5,4)
+(6,7)
+
+Set U : 1 3 6 7 
+Set V : 2 4 5 8 
+No. of edges from U to V : 4
+Edges are : 
+(1,2)
+(2,3)
+(5,3)
+(5,6)
+
+Set U : 1 4 5 6 
+Set V : 2 3 7 8 
+No. of edges from U to V : 4
+Edges are : 
+(1,2)
+(5,3)
+(6,7)
+(4,8)
+
+Set U : 1 4 5 8 
+Set V : 2 3 6 7 
+No. of edges from U to V : 3
+Edges are : 
+(1,2)
+(5,3)
+(5,6)
+
+Set U : 1 4 6 7 
+Set V : 2 3 5 8 
+No. of edges from U to V : 4
+Edges are : 
+(1,2)
+(5,4)
+(5,6)
+(4,8)
+
+Set U : 1 4 6 8 
+Set V : 2 3 5 7 
+No. of edges from U to V : 4
+Edges are : 
+(1,2)
+(5,4)
+(5,6)
+(6,7)
+
+Set U : 1 4 7 8 
+Set V : 2 3 5 6 
+No. of edges from U to V : 3
+Edges are : 
+(1,2)
+(5,4)
+(6,7)
+
+Set U : 1 5 6 7 
+Set V : 2 3 4 8 
+No. of edges from U to V : 3
+Edges are : 
+(1,2)
+(5,3)
+(5,4)
+
+Set U : 1 6 7 8 
+Set V : 2 3 4 5 
+No. of edges from U to V : 3
+Edges are : 
+(1,2)
+(5,6)
+(4,8)
+----------------------------------------------------------------
+TESTCASE 4 :
+
+Set U : 1 2 3 5 
+Set V : 4 6 7 8 
+No. of edges from U to V : 2
+Edges are : 
+(5,4)
+(5,6)
+
+Set U : 1 2 3 7 
+Set V : 4 5 6 8 
+No. of edges from U to V : 2
+Edges are : 
+(5,3)
+(6,7)
+
+Set U : 1 2 3 8 
+Set V : 4 5 6 7 
+No. of edges from U to V : 2
+Edges are : 
+(5,3)
+(4,8)
+
+Set U : 1 2 4 8 
+Set V : 3 5 6 7 
+No. of edges from U to V : 2
+Edges are : 
+(2,3)
+(5,4)
+
+Set U : 1 2 6 7 
+Set V : 3 4 5 8 
+No. of edges from U to V : 2
+Edges are : 
+(2,3)
+(5,6)
+----------------------------------------------------------------
+TESTCASE 5 :
+
+Set U : 1 2 3 4 
+Set V : 5 6 7 8 9 
+No. of edges from U to V : 2
+Edges are : 
+(2,7)
+(2,8)
+----------------------------------------------------------------
+TESTCASE 6 :
+
+Set U : 1 2 3 4 5 7 
+Set V : 6 8 9 10 11 12 
+No. of edges from U to V : 6
+Edges are : 
+(1,8)
+(5,6)
+(6,7)
+(7,8)
+(4,11)
+(2,10)
+
+Set U : 1 2 3 4 5 10 
+Set V : 6 7 8 9 11 12 
+No. of edges from U to V : 6
+Edges are : 
+(1,7)
+(1,8)
+(5,7)
+(5,6)
+(4,11)
+(8,10)
+
+Set U : 1 2 3 4 5 11 
+Set V : 6 7 8 9 10 12 
+No. of edges from U to V : 6
+Edges are : 
+(1,7)
+(1,8)
+(5,7)
+(5,6)
+(11,12)
+(2,10)
+
+Set U : 1 2 3 4 7 8 
+Set V : 5 6 9 10 11 12 
+No. of edges from U to V : 6
+Edges are : 
+(5,7)
+(6,7)
+(8,9)
+(4,11)
+(8,10)
+(2,10)
+
+Set U : 1 2 3 4 7 10 
+Set V : 5 6 8 9 11 12 
+No. of edges from U to V : 6
+Edges are : 
+(1,8)
+(5,7)
+(6,7)
+(7,8)
+(4,11)
+(8,10)
+
+Set U : 1 2 3 4 7 11 
+Set V : 5 6 8 9 10 12 
+No. of edges from U to V : 6
+Edges are : 
+(1,8)
+(5,7)
+(6,7)
+(7,8)
+(11,12)
+(2,10)
+
+Set U : 1 2 3 4 8 9 
+Set V : 5 6 7 10 11 12 
+No. of edges from U to V : 6
+Edges are : 
+(1,7)
+(6,9)
+(7,8)
+(4,11)
+(8,10)
+(2,10)
+
+Set U : 1 2 3 4 8 10 
+Set V : 5 6 7 9 11 12 
+No. of edges from U to V : 4
+Edges are : 
+(1,7)
+(7,8)
+(8,9)
+(4,11)
+
+Set U : 1 2 3 4 8 11 
+Set V : 5 6 7 9 10 12 
+No. of edges from U to V : 6
+Edges are : 
+(1,7)
+(7,8)
+(8,9)
+(11,12)
+(8,10)
+(2,10)
+
+Set U : 1 2 3 4 9 10 
+Set V : 5 6 7 8 11 12 
+No. of edges from U to V : 6
+Edges are : 
+(1,7)
+(1,8)
+(6,9)
+(8,9)
+(4,11)
+(8,10)
+
+Set U : 1 2 3 4 9 11 
+Set V : 5 6 7 8 10 12 
+No. of edges from U to V : 6
+Edges are : 
+(1,7)
+(1,8)
+(6,9)
+(8,9)
+(11,12)
+(2,10)
+
+Set U : 1 2 3 4 10 11 
+Set V : 5 6 7 8 9 12 
+No. of edges from U to V : 4
+Edges are : 
+(1,7)
+(1,8)
+(11,12)
+(8,10)
+
+Set U : 1 2 3 4 10 12 
+Set V : 5 6 7 8 9 11 
+No. of edges from U to V : 6
+Edges are : 
+(1,7)
+(1,8)
+(6,12)
+(11,12)
+(4,11)
+(8,10)
+
+Set U : 1 2 3 4 11 12 
+Set V : 5 6 7 8 9 10 
+No. of edges from U to V : 4
+Edges are : 
+(1,7)
+(1,8)
+(6,12)
+(2,10)
+
+Set U : 1 2 3 7 8 10 
+Set V : 4 5 6 9 11 12 
+No. of edges from U to V : 5
+Edges are : 
+(1,4)
+(5,7)
+(6,7)
+(8,9)
+(3,4)
+
+Set U : 1 2 3 8 9 10 
+Set V : 4 5 6 7 11 12 
+No. of edges from U to V : 5
+Edges are : 
+(1,4)
+(1,7)
+(6,9)
+(7,8)
+(3,4)
+
+Set U : 1 2 5 7 8 10 
+Set V : 3 4 6 9 11 12 
+No. of edges from U to V : 6
+Edges are : 
+(1,3)
+(1,4)
+(5,6)
+(6,7)
+(8,9)
+(2,3)
+
+Set U : 1 2 7 8 9 10 
+Set V : 3 4 5 6 11 12 
+No. of edges from U to V : 6
+Edges are : 
+(1,3)
+(1,4)
+(5,7)
+(6,9)
+(6,7)
+(2,3)
+
+Set U : 1 5 6 7 8 9 
+Set V : 2 3 4 10 11 12 
+No. of edges from U to V : 5
+Edges are : 
+(1,2)
+(1,3)
+(1,4)
+(6,12)
+(8,10)
+----------------------------------------------------------------
